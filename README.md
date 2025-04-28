@@ -1,1 +1,2 @@
-# Projeto
+O Sistema Controle de Atendimento é uma aplicação desenvolvida para gerenciar e otimizar o atendimento em diferentes cenários. Com uma interface moderna e funcionalidades configuráveis, o sistema é voltado para atender às necessidades de uma clínica  que precisa de um controle eficiente sobre filas, serviços e interações.
+A intenção é que seja funcional, por isso a escolha do esquema de cores é totalmente intencional para chamar atenção de quem vai ser atendido e/ou está na espera.
