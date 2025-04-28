@@ -1,20 +1,27 @@
 Sistema Controle de Atendimento
 Visão Geral
-O Sistema Controle de Atendimento é uma aplicação desenvolvida para gerenciar e otimizar o atendimento em diferentes cenários. Com uma interface moderna e funcionalidades configuráveis, o sistema é voltado para atender às necessidades de usuários que precisam de um controle eficiente sobre filas, serviços e interações.
+O Sistema Controle de Atendimento é uma aplicação desenvolvida para gerenciar e otimizar o atendimento em diferentes cenários. Com uma interface moderna e funcionalidades configuráveis, o sistema é voltado para atender às necessidades de uma clínica que precisa de um controle eficiente sobre filas, serviços e interações.
+(Todoo esquema de cores foi pensando para chamar atenção do usuário que vai ser atendido, para minimizar erros por falta de atenção.)
 
 Composição do Projeto
 O código do sistema é composto por diferentes tecnologias:
 
 TypeScript (56.3%): Linguagem principal para lógica e funcionalidades.
+
 HTML (17.2%): Estrutura de marcação das páginas.
+
 SCSS (17.1%): Estilização avançada, permitindo design responsivo e customizações.
+
 JavaScript (4.9%): Scripts auxiliares para interação e dinamicidade.
+
 Java (4.5%): Provavelmente usado no backend ou em integrações com serviços externos.
+
 Recursos Principais
 Gestão de Atendimento: Controle de filas, serviços e clientes.
 Interface Responsiva: Adaptação para diferentes dispositivos, como desktops, tablets e smartphones.
 Configuração Personalizável: Ajuste de parâmetros e funcionalidades de acordo com as necessidades.
 Relatórios e Métricas: Geração de dados úteis para análise de desempenho.
+
 Requisitos do Sistema
 Pré-requisitos:
 Node.js: Para executar scripts e gerenciar dependências.
@@ -24,7 +31,9 @@ As dependências do projeto podem ser encontradas no arquivo package.json. Para 
 
 bash
 npm install
-# ou
+
+ OU
+
 yarn install
 Configuração e Execução
 Passo 1: Clone o repositório
