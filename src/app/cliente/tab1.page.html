@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title class="senhas">GERE A SENHA DE ACORDO COM A SUA NECESSIDADE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="senha-content">
+  <ion-card class="senha-card">
+    <ion-card-header>
+      <ion-input
+        class="input-senha"
+        readonly="true"
+        label="Senha:"
+        label-placement="floating"
+        fill="outline"
+        value="{{senhasService.inputNovaSenha}}"
+        type="text"
+      ></ion-input>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-button expand="block" class="sg" (click)="senhasService.novaSenha('SG')">Senha Geral</ion-button>
+      <ion-button expand="block" class="sp" (click)="senhasService.novaSenha('SP')">Senha Prioridade</ion-button>
+      <ion-button expand="block" class="se" (click)="senhasService.novaSenha('SE')">Senha Exame</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

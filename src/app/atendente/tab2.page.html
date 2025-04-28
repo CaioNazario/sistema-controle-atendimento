@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="aten">Atendimento</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card *ngIf="senhaAtual">
+    <ion-card-header>
+      <ion-card-title>Atendendo</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <h2>{{ senhaAtual }}</h2>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button class="proxima" expand="full" (click)="chamarSenha()">
+    Chamar próxima senha
+  </ion-button>
+
+  <ion-button class="fim" expand="full" (click)="finalizarSenha()" [disabled]="!senhaAtual">
+    Finalizar atendimento
+  </ion-button>
+
+
+  <ion-list>
+    <ion-list-header>
+      Últimas 5 chamadas
+    </ion-list-header>
+    <ion-label class="label-senha-list"></ion-label>
+    <ion-item class="senha" *ngFor="let senha of atendimentoService.painelChamadas.slice(0, 5)">
+      {{ senha }}
+    </ion-item>
+    <ion-label class="label-senha-list"></ion-label>
+  </ion-list>
+
+</ion-content>

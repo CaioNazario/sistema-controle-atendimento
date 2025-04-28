@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="black">
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <div class="senha-container">
+      <ion-label class="senha-atual--label">Ultima Senha Chamada:</ion-label>
+      <ion-title class="senha-atual">
+        {{ painelChamadas[0] || 'Nenhuma Senha Chamada' }}
+      </ion-title>
+    </div>
+    <div></div>
+  </div>
+  <ion-list>
+    <ion-list-header class="senha-list-header">
+      Últimas 5 chamadas
+    </ion-list-header>
+    <ion-label class="label-senha-list"></ion-label>
+    <ion-item class="senha" *ngFor="let senha of painelChamadas.slice(1, 6)">
+      {{ senha }}
+    </ion-item>
+    <ion-label class="label-senha-list"></ion-label>
+  </ion-list>
+</ion-content>
