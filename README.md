@@ -31,8 +31,36 @@ O código do sistema é composto pelas seguintes tecnologias:
 
 ### Pré-requisitos
 
-- **Node.js**: Para execução de scripts e gerenciamento de dependências.
-- **NPM** ou **Yarn**: Para instalar as bibliotecas necessárias.
+ Dependências do Sistema
+Para garantir que o ambiente esteja pronto para executar o projeto corretamente, os seguintes softwares devem estar instalados:
+
+Node.js (recomendado: versão 18.x ou superior)
+
+NPM (geralmente incluído com o Node.js) ou Yarn
+
+Angular CLI (versão compatível com a 19.x):
+
+bash
+Copiar
+Editar
+npm install -g @angular/cli
+Capacitor CLI (para recursos nativos, se usados):
+
+bash
+Copiar
+Editar
+npm install -g @capacitor/cli
+
+Ionic CLI	^7.1.0	Interface de linha de comando do Ionic
+Angular CLI	^15.0.0 ou superior	Ferramenta para desenvolvimento Angular
+Capacitor CLI	^7.2.0	Usado para integração com recursos nativos
+
+Para instalar as CLIs necessárias:
+
+bash
+Copiar
+Editar
+npm install -g @ionic/cli @angular/cli @capacitor/cli
 
 ### Dependências
 
