@@ -6,17 +6,12 @@ Uma aplicação desenvolvida para gerenciar e otimizar o atendimento em diferent
 
 ---
 
-## Composição do Projeto
+## Tecnologias Utilizadas
+Ionic Framework
 
-O código do sistema é composto pelas seguintes tecnologias:
+Angular
 
-- TypeScript  
-- HTML  
-- SCSS  
-- JavaScript  
-- Java  
-
----
+Capacitor
 
 ## Recursos Principais
 
@@ -29,40 +24,14 @@ O código do sistema é composto pelas seguintes tecnologias:
 
 ## Requisitos do Sistema
 
-### Pré-requisitos
+ git clone https://github.com/CaioNazario/Tickets
+ 
+cd Tickets
 
- Dependências do Sistema
-Para garantir que o ambiente esteja pronto para executar o projeto corretamente, os seguintes softwares devem estar instalados:
+npm install
 
-Node.js (recomendado: versão 18.x ou superior)
+ionic serve
 
-NPM (geralmente incluído com o Node.js) ou Yarn
-
-Angular CLI (versão compatível com a 19.x):
-
-bash
-Copiar
-Editar
-npm install -g @angular/cli
-Capacitor CLI (para recursos nativos, se usados):
-
-bash
-Copiar
-Editar
-npm install -g @capacitor/cli
-
-Ionic CLI	^7.1.0	Interface de linha de comando do Ionic
-Angular CLI	^15.0.0 ou superior	Ferramenta para desenvolvimento Angular
-Capacitor CLI	^7.2.0	Usado para integração com recursos nativos
-
-Para instalar as CLIs necessárias:
-
-bash
-Copiar
-Editar
-npm install -g @ionic/cli @angular/cli @capacitor/cli
-
-### Dependências
 
 As dependências do projeto estão listadas no arquivo `package.json`. Para instalar todas, utilize:
 
